@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import edu.princeton.cs.introcs.*;
 
-public class SkunkDomain
+public class Controller
 {
 	private static final int SKUNK_DUECE = 3;
 	public SkunkUI skunkUI;
@@ -19,7 +19,7 @@ public class SkunkDomain
 
 	public Dice skunkDice;
 
-	public SkunkDomain(SkunkUI ui)
+	public Controller(SkunkUI ui)
 	{
 		this.skunkUI = ui;
 		this.ui = ui; // hide behind the interface UI
