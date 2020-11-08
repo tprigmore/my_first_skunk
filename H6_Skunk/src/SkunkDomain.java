@@ -3,6 +3,7 @@ import edu.princeton.cs.introcs.*;
 
 public class SkunkDomain
 {
+	private static final int SKUNK_DUECE = 3;
 	public SkunkUI skunkUI;
 	public UI ui;
 	public int numberOfPlayers;
@@ -71,7 +72,7 @@ public class SkunkDomain
 					wantsToRoll = false;
 					break;
 				}
-				else if (skunkDice.getLastRoll() == 3)
+				else if (skunkDice.getLastRoll() == SKUNK_DUECE)
 				{
 					ui.println(
 							"Skunks and Deuce! You lose the turn, zeroing out the turn score and paying 2 chips to the kitty");
